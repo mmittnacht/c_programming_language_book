@@ -131,6 +131,7 @@
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="exercise\input_manipulation.h" />
     <ClInclude Include="exercise\temperature.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

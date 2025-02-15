@@ -23,5 +23,8 @@
     <ClInclude Include="exercise\temperature.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="exercise\input_manipulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
