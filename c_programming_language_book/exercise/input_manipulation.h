@@ -30,3 +30,27 @@ void exc1_9( )
         else printf("%c", c);
     }
 }
+
+void exc1_10( )
+{
+    int c;
+
+    while((c = getchar( )) != EOF)
+    {
+        switch (c)
+        {
+            case '\n':
+                printf("%s", "\\n");
+                break;
+            case '\t':
+                printf("%s", "\\t");
+                break;
+            case '\\':
+                printf("%s", "\\");
+                break;
+            default:
+                printf("%c", c);
+                break;
+        }
+    }
+}
